@@ -1,3 +1,4 @@
+import { MaterialModule } from './../../../shared/material.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -11,7 +12,8 @@ import { TaskComponent } from './task.component';
   ],
   imports: [
     CommonModule,
-    TaskRoutingModule
+    TaskRoutingModule,
+    MaterialModule
   ]
 })
 export class TaskModule { }
